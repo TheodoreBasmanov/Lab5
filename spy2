@@ -1,0 +1,3 @@
+#!/bin/bash
+> topInfo2
+for (( ; ; )); do sleep 1 && top -b -n 1 ; done >> topInfo2 
