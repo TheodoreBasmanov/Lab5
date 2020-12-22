@@ -1,7 +1,8 @@
 #!/bin/bash
-K=10
-for i in 1 2 .. $K
+K=30
+for (( i=0; i<$K; i++ ))
 do 
+echo $i
 ./newmem.bash $1
 sleep 1
 done
